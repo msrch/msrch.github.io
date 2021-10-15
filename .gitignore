@@ -1,0 +1,8 @@
+*.diff
+*.err
+*.swo
+*.swp
+*.vi
+*~
+.DS_Store
+._*

@@ -1,0 +1,101 @@
+@font-face {
+  font-family: rajdhanilight;
+  src: url('../fonts/rajdhani-light-webfont.eot');
+  src: url('../fonts/rajdhani-light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/rajdhani-light-webfont.woff2') format('woff2'),
+    url('../fonts/rajdhani-light-webfont.woff') format('woff'),
+    url('../fonts/rajdhani-light-webfont.ttf') format('truetype'),
+    url('../fonts/rajdhani-light-webfont.svg#rajdhanilight') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: rajdhanimedium;
+  src: url('../fonts/rajdhani-medium-webfont.eot');
+  src: url('../fonts/rajdhani-medium-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/rajdhani-medium-webfont.woff2') format('woff2'),
+    url('../fonts/rajdhani-medium-webfont.woff') format('woff'),
+    url('../fonts/rajdhani-medium-webfont.ttf') format('truetype'),
+    url('../fonts/rajdhani-medium-webfont.svg#rajdhanimedium') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+body,
+html {
+  height: 100%;
+  min-height: 100%;
+}
+
+body {
+  align-items: center;
+  background-color: #070e15;
+  background-image: url('../imgs/bg.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  display: flex;
+  font-family: rajdhanilight, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  justify-content: center;
+  line-height: 1.25;
+  overflow: hidden;
+  position: relative;
+  user-select: none;
+}
+
+a {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  color: #ffffff;
+  display: inline-block;
+  text-decoration: none;
+  transition: border 0.2s ease-in-out;
+}
+a:active,
+a:focus,
+a:hover {
+  border-bottom-color: rgba(255, 255, 255, 0.75);
+}
+
+.Card {
+  bottom: 0;
+  left: 0;
+  opacity: 0.9;
+  padding: 2rem;
+  position: fixed;
+  right: 0;
+  text-align: center;
+}
+
+.Card-title,
+.Card-description {
+  margin: 0;
+}
+
+.Card-title {
+  font-family: rajdhanimedium, sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.Logo {
+  background-image: url('../imgs/logo.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 65vh;
+  margin-bottom: 2rem;
+  mix-blend-mode: difference;
+  opacity: 0.9;
+  width: 65vw;
+}
+
+@media (max-height: 400px) {
+  .Logo {
+    height: 55vh;
+  }
+}
