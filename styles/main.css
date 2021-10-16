@@ -1,15 +1,4 @@
 @font-face {
-  font-family: rajdhanilight;
-  src: url('../fonts/rajdhani-light-webfont.eot');
-  src: url('../fonts/rajdhani-light-webfont.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/rajdhani-light-webfont.woff2') format('woff2'),
-    url('../fonts/rajdhani-light-webfont.woff') format('woff'),
-    url('../fonts/rajdhani-light-webfont.ttf') format('truetype'),
-    url('../fonts/rajdhani-light-webfont.svg#rajdhanilight') format('svg');
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
   font-family: rajdhanimedium;
   src: url('../fonts/rajdhani-medium-webfont.eot');
   src: url('../fonts/rajdhani-medium-webfont.eot?#iefix') format('embedded-opentype'),
@@ -30,13 +19,13 @@ html {
 body {
   align-items: center;
   background-color: #111111;
-  background-image: url('../imgs/bg.svg');
+  background-image: url('../imgs/bg.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   color: #ffffff;
   display: flex;
-  font-family: rajdhanilight, sans-serif;
+  font-family: rajdhanimedium, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -70,16 +59,11 @@ a:hover {
   text-align: center;
 }
 
-.Card-title,
-.Card-description {
+.Card-text {
   margin: 0;
-}
-
-.Card-title {
-  font-family: rajdhanimedium, sans-serif;
   font-size: 1rem;
-  font-style: normal;
   font-weight: 400;
+  display: inline;
 }
 
 .Logo {
